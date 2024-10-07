@@ -1,0 +1,6 @@
+package com.blog.response;
+
+public class ApiResponseToken {
+	private String status;
+	private String token;
+}

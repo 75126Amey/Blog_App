@@ -1,0 +1,22 @@
+# Ignore Servers directory
+/Servers/
+
+# Ignore .metadata directory
+/.metadata/
+
+# Eclipse/STS related files
+/.classpath
+/.project
+/.settings/
+
+# Maven/Gradle build directories
+/target/
+/build/
+
+# Logs
+*.log
+/logs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,44 @@
+package com.blog.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.blog.dto.UserDTO;
+import com.blog.respositories.UserRepo;
+
+public class UserServiceImpl implements UserService {
+	
+	@Autowired
+	private UserRepo userRepo;
+	@Override
+	public UserDTO createUser(UserDTO user) {
+		User user = mapper.
+		return null;
+	}
+
+	@Override
+	public UserDTO updateUser(UserDTO user, Integer userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public UserDTO getUserByID(Integer userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<UserDTO> getAllUsers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteUser(Integer userId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
