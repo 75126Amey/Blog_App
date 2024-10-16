@@ -1,7 +1,0 @@
-package com.blog.respositories;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-public interface UserRepo extends JpaRepository<T, ID> {
-
-}

@@ -1,5 +1,0 @@
-package com.blog.response;
-
-public class ApiResponseError {
-
-}

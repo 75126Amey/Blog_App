@@ -1,8 +1,0 @@
-package com.blog.services;
-
-import com.blog.dto.UserDTO;
-
-
-public interface UserService {
-	UserDTO createUser(UserDTO user);
-}
