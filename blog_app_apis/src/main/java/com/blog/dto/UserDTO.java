@@ -1,9 +1,14 @@
 package com.blog.dto;
 
+import java.util.HashSet;
+import java.util.Set;
+
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+
+import com.blog.entities.Role;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -23,4 +28,5 @@ private String email;
 private String password;
 @NotNull
 private String about;
+private Set<RoleDTO> roles = new HashSet<>();
 }

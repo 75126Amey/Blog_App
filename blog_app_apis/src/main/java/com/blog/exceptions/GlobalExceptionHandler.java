@@ -32,4 +32,11 @@ public class GlobalExceptionHandler {
 		 ApiResponseToken response = new ApiResponseToken("error", null, message);
 		 return new ResponseEntity<>(response, HttpStatus.NOT_FOUND);
 	}
+	
+	@ExceptionHandler(ApiException.class)
+	public ResponseEntity<ApiResponseToken> handleapiException(ApiException ex){
+		String message = ex.getMessage();
+		 ApiResponseToken response = new ApiResponseToken("error", null, message);
+		 return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
+	}
 }
